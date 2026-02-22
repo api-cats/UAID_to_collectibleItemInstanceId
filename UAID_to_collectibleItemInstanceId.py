@@ -1,4 +1,5 @@
-#Made for finding collectibleItemInstanceId if you know the UIAD by api_cats :3
+#by api_cats :3
+#Made for finding collectibleItemInstanceId if you know the UIAD
 #I dont recommend this method if you want to mass send trades. There are easier and better ways (trades.roblox.com/v2/users/USERID/tradableitems?sortBy=CreationTime).
 
 import aiohttp
@@ -64,3 +65,4 @@ async def function():
             await asyncio.sleep(30)
 
 asyncio.run(function())
+
